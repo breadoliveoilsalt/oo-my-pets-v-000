@@ -73,7 +73,7 @@ class Owner
   def sell_pets
     self.pets.each do |k, v|
       #k[v].each { |p| p.mood = "nervous"} - This didn't work *** - take note!
-      v.each { |p| p.mood = "nervous" } 
+      v.each { |p| p.mood = "nervous" }
       v.clear
     end
   end
